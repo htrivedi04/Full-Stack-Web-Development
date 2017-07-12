@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Style Classes in HTML Tables</title>
+    <meta name = "author" content="Harshit Trivedi">
+    <style>
+    /* Pseudo Classes */
+    h1:hover {color: CornFlowerBlue}
+    /* Classes in CSS */
+    table, td, th {border: 1px solid green; width: 50%}
+    .profit {text-align: left; background-color: lightblue}
+    .zero {text-align: center; background-color: yellow}
+    .loss {text-align: right; background-color: red}
+    </style>
+  </head>
+  <body>
+    <h1>Style in HTML Tables</h1>
+    <table>
+      <tr><th>Product</th><th>Income</th><th>Cost</th><th>Difference</th></tr>
+      <tr><td>Laptops</td><td>$300</td><td>$100</td><td class="profit">$200</td></tr>
+      <tr><td>Stationery</td><td>$150</td><td>$150</td><td class="zero">$0</td></tr>
+      <tr><td>Chairs</td><td>$50</td><td>$300</td><td class="loss">$250</td></tr>
+    </table>
+  </body>
+</html>
